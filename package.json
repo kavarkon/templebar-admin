@@ -1,0 +1,20 @@
+{
+  "name": "templebar-admin",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "format": "oxfmt --write src test vite.config.js",
+    "format:check": "oxfmt --list-different src test vite.config.js",
+    "lint": "oxlint src test vite.config.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@vitest/browser-playwright": "latest",
+    "playwright": "latest",
+    "vite": "latest",
+    "vitest": "latest"
+  }
+}

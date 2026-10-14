@@ -9,7 +9,7 @@
 * use vite for assembly
 
 ## Tests
-* Only feature tests (mock backend response backend is in path ~/code/bar-путь-до-твоего-бекенда)
+* Only feature tests (mock backend response backend is in path ~/project/templebar-api)
 * unit tests forbidden
 
 ## Boundaries
